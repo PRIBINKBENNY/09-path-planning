@@ -1,0 +1,50 @@
+{
+  "Dijkstra": {
+    "success": "20/20",
+    "length_vs_optimal": 1.0,
+    "expanded_or_nodes": 7117,
+    "ms": 39.0
+  },
+  "A*": {
+    "success": "20/20",
+    "length_vs_optimal": 1.0,
+    "expanded_or_nodes": 2173,
+    "ms": 14.6
+  },
+  "Weighted A* (w=2)": {
+    "success": "20/20",
+    "length_vs_optimal": 1.037,
+    "expanded_or_nodes": 197,
+    "ms": 1.5
+  },
+  "Greedy": {
+    "success": "20/20",
+    "length_vs_optimal": 1.06,
+    "expanded_or_nodes": 167,
+    "ms": 1.4
+  },
+  "Theta*": {
+    "success": "20/20",
+    "length_vs_optimal": 0.947,
+    "expanded_or_nodes": 2255,
+    "ms": 173.4
+  },
+  "RRT": {
+    "success": "20/20",
+    "length_vs_optimal": 1.261,
+    "expanded_or_nodes": 1793,
+    "ms": 164.8
+  },
+  "RRT* ": {
+    "success": "20/20",
+    "length_vs_optimal": 1.123,
+    "expanded_or_nodes": 1793,
+    "ms": 316.6
+  },
+  "RRT + shortcut": {
+    "success": "20/20",
+    "length_vs_optimal": 1.063,
+    "expanded_or_nodes": 1793,
+    "ms": 164.8
+  }
+}
